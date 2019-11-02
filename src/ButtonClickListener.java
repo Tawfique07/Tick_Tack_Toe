@@ -19,7 +19,6 @@ public class ButtonClickListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
-        System.out.println(command+" button clicked !");
         int button = Integer.parseInt(command);
         if(buttons[button].getLabel() == " " && !game.isResult()){
             if(previous == "O"){
