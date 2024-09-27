@@ -1,6 +1,3 @@
-Here's a sample `README.md` file for your Java AWT Tic-Tac-Toe game. You can adjust the details to match your project's specifics.
-
----
 
 # Tic-Tac-Toe Game (Java AWT)
 
@@ -27,8 +24,8 @@ To run this game, ensure you have the following installed:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe-java.git
-cd tic-tac-toe-java
+git clone https://github.com/Tawfique07/Tick_Tack_Toe.git
+cd Tick_Tack_Toe
 ```
 
 ### Compile and Run
@@ -38,13 +35,13 @@ cd tic-tac-toe-java
 3. Compile the Java files using the following command:
 
 ```bash
-javac TicTacToe.java
+javac TickTack.java
 ```
 
 4. Run the program:
 
 ```bash
-java TicTacToe
+java TickTack
 ```
 
 ## How to Play
@@ -63,7 +60,7 @@ java TicTacToe
 
 ```
 ├── src
-│   ├── TicTacToe.java      # Main game class that handles the UI and game logic
+│   ├── TickTack.java       # Main game class that handles the UI and game logic
 │   └── ...                 # Any additional files
 └── README.md               # This file
 ```
